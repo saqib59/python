@@ -6,8 +6,13 @@ Author
 
 # print("how", "are", "you", sep="~")
 
-c = ''
-# print("type of c ", type(c))
+# c = ''
+# # print("type of c ", type(c))
 
-a = complex(8, 2);
-print(a)
+# a = complex(8, 2);
+# print(a)
+
+num1 = 10
+num2 = 2
+
+print(f"Addition of the two numbers {num1} and {num2} = {num1 + num2}")
