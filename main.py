@@ -12,7 +12,13 @@ Author
 # a = complex(8, 2);
 # print(a)
 
-num1 = 10
-num2 = 2
+# num1 = 10
+# num2 = 2
 
-print(f"Addition of the two numbers {num1} and {num2} = {num1 + num2}")
+# print("Addition of the two numbers {num1} and {num2} = {num1 + num2}")
+
+# Input
+
+name = input("Enter your name: ")
+
+print("your name is" , name)
