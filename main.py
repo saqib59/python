@@ -19,6 +19,15 @@ Author
 
 # Input
 
-name = input("Enter your name: ")
+# name = input("Enter your name: ")
 
-print("your name is" , name)
+# print("your name is" , name)
+print('''he said: 
+"I want to eat an apple " ''')
+
+
+myName = "Saqib"
+
+for character in myName:
+    print(character)
+
