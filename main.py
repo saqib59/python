@@ -3,10 +3,11 @@ This is a comment
 Author
 '''
 
-name = "Saqib Ali"
+age = int(input("Enter your age "))
 
-# print(name.rstrip("!").upper().replace("S", ""))
+print(f"Your age is {age}")
 
-print(name.center(100))
-
-print(name.capitalize())
+if(age>18):
+    print("you can drive")
+else:
+    print("you can not drive")
