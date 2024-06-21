@@ -1,13 +1,17 @@
 '''
-This is a comment
-Author
+100 days of code - Python
 '''
 
-age = int(input("Enter your age "))
 
-print(f"Your age is {age}")
+import datetime;
 
-if(age>18):
-    print("you can drive")
+currentTime = datetime.datetime.now();
+
+if (currentTime.hour >= 6 and currentTime.hour <= 10):
+    print("Good morning sahab!")
+elif (currentTime.hour >= 11 and currentTime.hour <= 13):
+    print("Good afternoon sahab!")
+elif (currentTime.hour >= 14 and currentTime.hour <= 19):
+    print("Good evening sahab!")
 else:
-    print("you can not drive")
+    print("Good night sahab!")
