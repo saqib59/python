@@ -3,15 +3,16 @@
 '''
 
 
-import datetime;
+number = int(input("Enter the value of x: "))
 
-currentTime = datetime.datetime.now();
-
-if (currentTime.hour >= 6 and currentTime.hour <= 10):
-    print("Good morning sahab!")
-elif (currentTime.hour >= 11 and currentTime.hour <= 13):
-    print("Good afternoon sahab!")
-elif (currentTime.hour >= 14 and currentTime.hour <= 19):
-    print("Good evening sahab!")
-else:
-    print("Good night sahab!")
+match (number):
+    case (3):
+        print("number is 3")
+    case (5):
+        print("number is 5")
+    case _ if number!=90:
+       print(f"{number} is not 90")
+    case _ if number!=80:
+       print(f"{number} is not 80")
+    case _:
+       print(number)
