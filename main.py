@@ -2,13 +2,9 @@
 100 days of code - Python
 '''
 
-
-colors = ["Red", "Green", "Blue"];
-
-for color in colors:
-    print(color)
-    for i in color:
-        print(i)
-
-for number in range(5):
+number = 0
+while(number <= 38):
+    number = int(input("Enter an number: "))
     print(number)
+else:
+    print("Inside else")
