@@ -1,10 +1,9 @@
 '''
 100 days of code - Python
 '''
-
-number = 0
-while(number <= 38):
-    number = int(input("Enter an number: "))
-    print(number)
-else:
-    print("Inside else")
+num = 0;
+while True:
+    num = num + 1
+    print(num)
+    if (num % 100 ==0):
+        break;
