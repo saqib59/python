@@ -1,9 +1,16 @@
 '''
 100 days of code - Python
 '''
-num = 0;
-while True:
-    num = num + 1
-    print(num)
-    if (num % 100 ==0):
-        break;
+
+def calculateGmean(a,b):
+    mean = (a*b) / (a+b)
+    print(f"mean is {mean}")
+
+    if (a>b):
+        print(f"{a} is greater")
+    else:
+        print(f"{b} is greater")
+
+num1 = 5
+num2 = 10
+calculateGmean(5,10)
