@@ -2,15 +2,19 @@
 100 days of code - Python
 '''
 
-def calculateGmean(a,b):
-    mean = (a*b) / (a+b)
-    print(f"mean is {mean}")
+# you can not have a default argument followed by a non default arguement
+# def average(a,b=3):
+#     print(f"a = {a} & b = {b}")
 
-    if (a>b):
-        print(f"{a} is greater")
-    else:
-        print(f"{b} is greater")
+# average(2,4)
 
-num1 = 5
-num2 = 10
-calculateGmean(5,10)
+def average(*numbers):
+    sum = 0
+    for item in numbers:
+        sum = sum + item
+
+    return sum / len(numbers)
+
+test = average(2,2,2)
+
+print(test)
