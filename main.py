@@ -1,17 +1,13 @@
-import random
-l1 = ['lemon', 'apple', 'mango', 'banana']
+chai = "Lemon, Ginger, Mint, Masala"
 
-from decimal import Decimal
+# print(chai.split(", "))
+# print(chai)
 
-random.shuffle(l1)
-print(random.choice(l1))
-print(l1)
+chai = "Masala Chai chai Chai"
 
-Decimal('0.1') + Decimal('0.1') + Decimal('0.1')
+# print(chai.count("Chai"))
 
-set_one = {'saqib', 'ali', 'umer'}
-set_two = {'azan', 'ali', 'faiz'}
+chai_types = ["Lemon", "Masala", "Ginner"]
 
-result = set_one | set_two
 
-print(result)
+print(", ".join(chai_types))
